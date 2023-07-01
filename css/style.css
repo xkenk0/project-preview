@@ -1,4 +1,24 @@
-.carousel {
-    width:640px;
-    height:360px;
+.slide {
+    margin-top: 15px;
+}
+
+.slide img {
+    height: 60vh;
+    width: 80vh;
+}
+
+.mess {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.tittle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mess p{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
 }
