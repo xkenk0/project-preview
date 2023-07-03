@@ -1,3 +1,43 @@
+/* -----default settings-----  */
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+:root {
+    --blue: #2390f5;
+    --white: #ffffff;
+}
+
+
+/* ----- navbar ----- */
+.btn-chat{
+    background-color: var(--blue);
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+.btn-chat:hover{
+    background-color: #2b6eac;
+    color: var(--white);
+}
+.bi-chat-left-dots{
+    padding-right: 8px;
+}
+.nav-link::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: var(--blue);
+    margin: auto;
+    display: block;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition: width 0.2s linear;
+}
+
+
+/* ----- ----- */
 .carousel-inner{
     display: flex;
     align-items: center;
@@ -13,6 +53,9 @@
 .tittle {
     font-size: 40px;
     font-weight: bold;
+    border-bottom: 5px solid #9d2251;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 .mess p{
