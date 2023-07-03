@@ -37,7 +37,7 @@
 }
 
 
-/* ----- ----- */
+/* ----- carousel ----- */
 .carousel-inner{
     display: flex;
     align-items: center;
@@ -65,8 +65,10 @@
 }
 
 .card{
+    padding: 0;
     padding-top: 2em;
     margin: 2em;
+    min-width: 10em;
 }
 
 .card-icon{
@@ -86,3 +88,10 @@
     height: 3em;
     width: auto;
 }
+
+.card-btn{
+    width: 5em;
+    border-radius: 30px;
+
+}
+
