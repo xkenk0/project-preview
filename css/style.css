@@ -64,6 +64,8 @@
     margin-right: 20%;
 }
 
+
+/* ----- cards ----- */
 .card{
     padding: 0;
     padding-top: 2em;
@@ -89,9 +91,63 @@
     width: auto;
 }
 
-.card-btn{
-    width: 5em;
+.btn-rounded{
+    width: 6em;
     border-radius: 30px;
-
 }
 
+/* ----- footer ----- */
+
+.footer{
+    background-color: #1B2433;
+    color: white;
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.footerDescription{
+    padding-right: 2em;
+}
+
+.footerDescription p{
+    padding-top: 2em;
+}
+
+.btn-subscribe{
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.btn-subscribe button{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.footer ul{
+    padding: 0;
+    list-style: none;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px #3a4b68;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.bar p{
+    margin: 0;
+}
+
+.bar i{
+    margin-left: 1em; 
+}
