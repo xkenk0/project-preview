@@ -63,3 +63,26 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+
+.card{
+    padding-top: 2em;
+    margin: 2em;
+}
+
+.card-icon{
+    position: absolute;
+    top: -2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9E8FE;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+    align-self: center;
+}
+
+.card-icon img{
+    height: 3em;
+    width: auto;
+}
