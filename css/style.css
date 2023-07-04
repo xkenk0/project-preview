@@ -96,6 +96,31 @@
     border-radius: 30px;
 }
 
+
+/* ----- Section Doctors ----- */
+.section-doctors__paraghrap{
+    font-size: 16px;
+}
+.card-doctors{
+    padding-top: 0;
+}
+.card-title-doctors{
+    text-align: start;
+    margin-bottom: 0;
+}
+.bi-star-fill{
+    color: #ffc107;
+}
+.card-text-doctors{
+    font-size: 16px;
+}
+.review-doctors, 
+.review-doctors span, 
+.review-doctors i{
+    font-size: 16px;
+}
+
+
 /* ----- footer ----- */
 
 .footer{
