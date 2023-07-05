@@ -1,29 +1,46 @@
 /* -----default settings-----  */
-*{
+* {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
 }
+
 :root {
     --blue: #2390f5;
     --white: #ffffff;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+    ;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+
 
 /* ----- navbar ----- */
-.btn-chat{
+.btn-chat {
     background-color: var(--blue);
     color: #ffffff;
     border-radius: 25px;
     padding: 10px 20px;
 }
-.btn-chat:hover{
+
+.btn-chat:hover {
     background-color: #2b6eac;
     color: var(--white);
 }
-.bi-chat-left-dots{
+
+.bi-chat-left-dots {
     padding-right: 8px;
 }
-.nav-link::after{
+
+.nav-link::after {
     content: "";
     width: 0;
     height: 3px;
@@ -31,14 +48,15 @@
     margin: auto;
     display: block;
 }
-.nav-link:hover::after{
+
+.nav-link:hover::after {
     width: 100%;
     transition: width 0.2s linear;
 }
 
 
 /* ----- carousel ----- */
-.carousel-inner{
+.carousel-inner {
     display: flex;
     align-items: center;
     max-height: 70vh;
@@ -58,22 +76,21 @@
     padding-bottom: 5px;
 }
 
-.mess p{
-    text-align: center;
+.mess p {
     margin-left: 20%;
     margin-right: 20%;
 }
 
 
 /* ----- cards ----- */
-.card{
+.card {
     padding: 0;
     padding-top: 2em;
     margin: 2em;
     min-width: 10em;
 }
 
-.card-icon{
+.card-icon {
     position: absolute;
     top: -2em;
     display: flex;
@@ -86,44 +103,82 @@
     align-self: center;
 }
 
-.card-icon img{
+.card-icon img {
     height: 3em;
     width: auto;
 }
 
-.btn-rounded{
+.btn-rounded {
     width: 6em;
     border-radius: 30px;
 }
 
+/* ----- Section Why Choose Health+ ----- */
+.WhyChooseHealth {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+}
+
+.WhyChooseHealth .imagenes {
+    position: relative;
+}
+
+.WhyChooseHealth .card {
+    position: absolute;
+    width: 32%;
+    height: 40%;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+
+.WhyChooseHealth .card-title{
+    font-size: 100%;
+}
+
+.WhyChooseHealth .card img{
+    width: 30%;
+}
+
+.WhyChooseHealth .content {
+    padding: 3em;
+}
+
 
 /* ----- Section Doctors ----- */
-.section-doctors__paraghrap{
+.section-doctors__paraghrap {
     font-size: 16px;
 }
-.card-doctors{
+
+.card-doctors {
     padding-top: 0;
 }
-.card-title-doctors{
+
+.card-title-doctors {
     text-align: start;
     margin-bottom: 0;
 }
-.bi-star-fill{
+
+.bi-star-fill {
     color: #ffc107;
 }
-.card-text-doctors{
+
+.card-text-doctors {
     font-size: 16px;
 }
-.review-doctors, 
-.review-doctors span, 
-.review-doctors i{
+
+.review-doctors,
+.review-doctors span,
+.review-doctors i {
     font-size: 16px;
 }
 
 
 /* ----- footer ----- */
 
-.footer{
+.footer {
     background-color: #1B2433;
     color: white;
     padding-top: 4em;
@@ -131,36 +186,33 @@
     padding-right: 2em;
 }
 
-.footerDescription{
+.footerDescription {
     padding-right: 2em;
 }
 
-.footerDescription p{
+.footerDescription p {
     padding-top: 2em;
 }
 
-.btn-subscribe{
+.btn-subscribe {
     position: relative;
     margin-bottom: 1em;
 }
 
-.btn-subscribe button{
+.btn-subscribe button {
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.footer ul{
-    padding: 0;
-    list-style: none;
-}
 
-.links a{
+
+.links a {
     color: white;
     text-decoration: none;
 }
 
-.bar{
+.bar {
     display: flex;
     justify-content: space-between;
     border-top: solid 1px #3a4b68;
@@ -169,10 +221,10 @@
     padding-bottom: 1em;
 }
 
-.bar p{
+.bar p {
     margin: 0;
 }
 
-.bar i{
-    margin-left: 1em; 
+.bar i {
+    margin-left: 1em;
 }
