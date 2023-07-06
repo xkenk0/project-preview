@@ -22,7 +22,6 @@ ul {
 
 
 /* ----- navbar ----- */
-
 .navbar-brand {
     margin-bottom: 0.4em;
     margin-left: 1em;
@@ -67,8 +66,8 @@ ul {
     overflow: hidden;
 }
 
-/* ----- What We Do ----- */
 
+/* ----- What We Do ----- */
 .titulo {
     font-size: 2.2em;
     font-weight: bold;
@@ -338,4 +337,22 @@ ul {
 
 .bar i {
     margin-left: 1em;
+}
+
+
+/* -----Button back to top----- */
+#buttonToTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: var(--blue);
+    color: white;
+    cursor: pointer;
+    padding: 14px 20px;
+    border-radius: 5px;
 }
