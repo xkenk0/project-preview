@@ -1,0 +1,6 @@
+-Agregar seccion de reviews?
+-Carrusel en mobile, agrandar en alto?
+-Titulo About us centrado? Asi sigue con el diseño de los titulos centrados.
+-Boton al top fijarse que no tape los iconos de redes sociales en mobile.
+-Ver compatibilidad de favicon con todos los dispositivos.
+-Algun efecto en las cards de los médicos?

@@ -14,7 +14,7 @@ window.addEventListener("scroll", scrollFunction)
  * @return {void} Nothing
  */
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         buttonToTop.style.display = "block";
     } else {
         buttonToTop.style.display = "none";
